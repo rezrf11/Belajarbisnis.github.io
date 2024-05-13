@@ -1,0 +1,304 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    float: left; /* Mengatur agar "Rumah Reza" berada di sebelah kiri */
+}
+
+.logo a {
+    font-size: 40px; /* Mengubah ukuran font menjadi 30px */
+    font-weight: bold;
+    font-family: 'poppins';
+    color: #110738;
+}
+
+.menu {
+    float: right; /* Mengatur agar menu berada di sebelah kanan */
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* Menyusun elemen ke sisi kanan dan kiri */
+    align-items: center;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #d0d0d0;
+    z-index: 1;
+    border-bottom: 1px solid #000000
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(9, 14, 29);
+    font-weight: 15px;
+    font-size: 14px; /* Mengubah ukuran font menjadi 12px */
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#home img {
+    float: left; 
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins';
+    color: #010000;
+}
+h2 {
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:  #110738;
+    width: 100px;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #0408fc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 9px 12px 9px 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #c4052c;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #ed0a0a;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+a.tbl-pink:hover {
+    background: #fa5252;
+    text-decoration: none;
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'poppins';
+}
+
+a.tbl-biru {
+    background: #ed0a0a;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+a.tbl-biru:hover {
+    background: #e85858;
+    text-decoration: none;
+}
+
+.kolom h2 {
+    white-space: nowrap;
+    font-size: 25px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.tengah h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+}
+
+.tutor-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+}
+
+.kartu-tutors {
+    width: calc(17% - 20px); /* Atur lebar kartu dengan memperhitungkan jarak antar kartu */
+    text-align: center; /* Pusatkan konten dalam kartu */
+    margin: 10px;
+}
+
+.kartu-tutors img {
+    width: 120%; /* Agar gambar terisi di dalam kartu */
+    height: auto;
+    border-radius: 50%; /* Agar gambar bundar */
+    
+}
+
+.patner-list {
+    widht: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Kartu-patners {
+    width: calc(20-20px);
+    text-align: center;
+    margin: 10px;
+}
+
+.kartu-patners img {
+    max-width: 120px; /* Atur lebar maksimum gambar */
+    height: auto; /* Biarkan tinggi mengikuti proporsi aslinya */
+}
+
+#contact {
+    background: #d3d3d3;
+    padding:70px 0px 70px 0px;   
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section p {
+    font-size: 13px; /* Mengatur ukuran font menjadi 12px */
+    margin-bottom: -30px; /* Mengurangi margin bawah */
+}
+
+
+h3 {
+    font-family: 'poppins';
+    font-weight: 800%;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #110738;
+    width: 100%;
+    line-height: 15px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 80%;
+    }
+    
+    .logo a {
+        display: blok;
+        width: 70%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutors {
+        width: 30%;
+    }
+
+    .kartu-patners {
+        width: 30%;
+    }
+}
